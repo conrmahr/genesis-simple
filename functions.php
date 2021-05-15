@@ -72,8 +72,6 @@ if ( get_option( 'ga_uid' ) == false ) {
     if ( !current_user_can('delete_site' ) ) { 
         $propertyuid = get_option('ga_uid'); // Get GA Property ID
     ?>
-        <script>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1595402-5"></script>
         <script>
           window.dataLayer = window.dataLayer || [];
